@@ -197,6 +197,10 @@ const internalRenderMediaOnCloudrunRaw = async ({
 		method: 'POST',
 		data,
 		responseType: 'stream',
+		timeout: 1000 * 60 * 60 * 2,
+		headers: {
+	          Connection: 'Keep-Alive',
+		}
 	});
 
 	const renderResponse = await new Promise<
