@@ -27,7 +27,7 @@
 						"allowTypeImports": true,
 					},
 					{
-						"name": "@remotion/zod-types",
+						"name": "@skyturkish/remotion/zod-types",
 						"message": "Can only import @remotion/zod-types as a type",
 						"allowTypeImports": true,
 					},

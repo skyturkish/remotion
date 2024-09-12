@@ -2,7 +2,7 @@
 	"repository": {
 		"url": "https://github.com/remotion-dev/remotion/tree/main/packages/bundler"
 	},
-	"name": "@remotion/bundler",
+	"name": "@skyturkish/remotion/bundler",
 	"version": "4.0.212",
 	"description": "Bundle Remotion compositions using Webpack",
 	"main": "dist/index.js",
